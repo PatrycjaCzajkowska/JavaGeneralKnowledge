@@ -136,9 +136,21 @@ public class Test {
 		}
 		
 		System.out.println("Potrzebne było " + iloscLat2 + "lat.");
+	
+		
+		//######PĘTLA for-each - iteruje po wszystkich elementach tablicy
+		
+		System.out.println("Przechodzę do 6 pętli for");
+		
+		int[] tablica = new int[5];
+		
+		for(int element: tablica) {
+			element=12;
+			System.out.println(element);
+		}
+		
 		
 	}
-	
 	
 	
 	
