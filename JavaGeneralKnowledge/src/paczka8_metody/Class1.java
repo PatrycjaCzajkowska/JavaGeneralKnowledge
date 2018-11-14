@@ -12,4 +12,8 @@ public class Class1 {
 	return argument;
 	}
 	
+	
+	
+	//Mocno sparametryzowane metody oznaczamy jako prywatne
+	//Resztę metod oznaczamy jako publiczne
 }
