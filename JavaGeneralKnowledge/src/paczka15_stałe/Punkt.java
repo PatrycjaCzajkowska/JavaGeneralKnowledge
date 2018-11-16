@@ -36,5 +36,6 @@ public class Punkt {
 		CONST_POINT.setX(14.4); //Metoda setX() nie zmienia referencji do naszego Punktu, tylko pole znajdujące się w nim. 
 		
 		
+		
 	}
 }
