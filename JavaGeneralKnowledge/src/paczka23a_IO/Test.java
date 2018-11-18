@@ -1,4 +1,4 @@
-package paczka23_IO;
+package paczka23a_IO;
 
 import java.io.IOException;
 import java.util.Scanner;
