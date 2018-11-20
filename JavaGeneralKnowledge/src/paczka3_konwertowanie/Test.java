@@ -10,7 +10,7 @@ public class Test {
 //		int liczba 4 = liczba1;//BLAD, 
 		
 		
-		//trzeba KONWERTOWANIA-RZUTOWANIA ZMIENNAYCH
+		//potrzeba KONWERTOWANIA-RZUTOWANIA ZMIENNAYCH
 
 		int liczba4 = (int) liczba2;//typ docelowy nazwa = (typ docelowy) nazwa innego typu
 		
