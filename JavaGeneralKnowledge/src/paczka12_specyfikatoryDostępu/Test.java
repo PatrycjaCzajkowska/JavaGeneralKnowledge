@@ -6,7 +6,7 @@ public class Test {
 		
 Punkt p = new Punkt(1,2);
 
-System.out.println(p.x);//mogę się dostać do pola bo public
+System.out.println(p.getY());//mogę się dostać do pola bo public
 		
 	}
 

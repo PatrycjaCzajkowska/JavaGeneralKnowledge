@@ -93,7 +93,8 @@ public class Test {
 		//prop.load(inStream);//load pozwala ładować dane do kolekcji
 	
 		//##KOLEJKA-pozwala szeregować elementy (podobnie jak listy) w kolejności w jakiej zostały dodane.
-	   //Oferują jednak ograniczenie rozmiaru kolejki, sprawdzanie, czy udało się dodać element do kolejki, a także znacznie bardziej rozbudowany zestaw środków do pobierania elementów z niej.
+	   //Oferują jednak ograniczenie rozmiaru kolejki, sprawdzanie, czy udało się dodać element do kolejki, 
+		//a także znacznie bardziej rozbudowany zestaw środków do pobierania elementów z niej.
 	
 		Queue<String> q = new ArrayDeque<String>();
 		

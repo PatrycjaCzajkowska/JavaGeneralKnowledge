@@ -8,6 +8,11 @@ public class Punkt {
 	private double y; //konwencja, że pola powinny być private i dostajemy się do nich przez get() i set()
 	
 	
+	
+	
+	
+	
+	
 	public Punkt(double x, double y) {
 		this.x = x;
 		this.y = y;
@@ -29,7 +34,7 @@ public class Punkt {
 	
 	//##modyfikatory dostępu:
 	//public - widoczny: w klasie macierzystej, w pakiecie, w podklasach poza pakietem, w reszcie aplikacji
-	//protected - w klasie macierzystej, w pakiecie, w podklasach poza pakietem
+	//protected - w klasie macierzystej, w pakiecie, w klasach dziedziczących po klasie macierzystej w tym samym pakiecie, nie można stosować modyfikatora przed klasami
 	//private - w klasie macierzystej
 	//brak -  w klasie macierzystej, w pakiecie
 	
