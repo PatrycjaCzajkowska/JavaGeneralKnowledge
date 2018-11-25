@@ -34,6 +34,7 @@ public class Test {
 		lista.add(4);
 		lista.add(6);
 		System.out.println(lista);
+		System.out.println(lista.get(0));
 		
 		//##ZBIÓR - Od listy odróżnia go to, że Set nie dopuszcza do zaistnienia powtórek.
 		System.out.println("zbior");
@@ -42,6 +43,11 @@ public class Test {
 		zbior.add(new Samochod(100));
 		zbior.add(new Samochod(100));
 		System.out.println(zbior);
+		
+		for(Samochod a:zbior) {
+			System.out.println(a);
+		}
+		
 		
 		//porównywanie przez metodę equals’a-przesłaniając metodę equals( Object o ) w klasie Samochod.
 
@@ -98,6 +104,11 @@ public class Test {
 	
 		Queue<String> q = new ArrayDeque<String>();
 		
+		q.add("Ala");
+		q.add("ma");
+		q.add("kota");
+		System.out.println(q.remove());//wypisze 1 element z mapy i usunie
+		
 		/*ArrayDeque nie jest ograniczona przez rozmiar – dopasowuje się do ilości elementów. Jako kolejka ma metody dla nich charakterystyczne:
 	poll() – zwraca i usuwa element znajdujący się na szczycie kolejki
 	peek() – to samo co poll(), ale nie usuwa nic z kolekcji
@@ -116,6 +127,9 @@ public class Test {
 //		while (tasks.size()>0) {
 //			System.out.println(tasks.poll());
 //		}
+		
+		
+		
 		//nie używać iteracji za pomocą for-each’a – dostaniemy wtedy elementy w takiej kolejności w jakiej dodaliśmy je do kolejki (nieposortowane po priorytecie
 	}
 

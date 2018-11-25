@@ -41,7 +41,7 @@ public class File {
 		return false;
 	}
 	
-	//klasa File odpowiada za za obsługę plików na komputerze
-	//foldery w Javie również obsługujemy za pomocą klasy File
+	//klasa File odpowiada za za obsługę plików i folderów na komputerze
+
 	
 }

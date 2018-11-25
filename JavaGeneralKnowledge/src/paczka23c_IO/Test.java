@@ -6,7 +6,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		//klasa Fila-obsługuje folsery - metody mkdir() (tworzy tylko 1 folder) i mdirs()(jednym wywolaniem tworzy cale drzewo folderow) - tworzą nowe foldery
+		//klasa Fila-obsługuje foldery - metody mkdir() (tworzy tylko 1 folder) i mdirs()(jednym wywolaniem tworzy cale drzewo folderow) - tworzą nowe foldery
 		//Ich użycie jest bardzo proste, ponieważ te metody nie podnoszą żadnych wyjątków, a jedynie zwracają wartość boolean, która określa czy utworzono folder, czy nie.
 
 		File folder = new File(" nowyfolder");
